@@ -1,0 +1,77 @@
+site_name: Shell-iT
+theme:
+  name: material
+  language: en
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+    - navigation.footer
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: switch to dark mode
+      primary: '#3c58a8'
+      accent: '#496bcb'
+    - scheme: slate
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+      primary: '#496bcb'
+      accent: '#f89a3a'
+  
+  extra:
+    social:
+      - icon: fontawesome/brands/github
+        link: https://github.com/shell-it
+      - icon: fontawesome/brands/linkedin
+        link: https://www.linkedin.com/company/shell-it/
+      - icon: fontawesome/brands/facebook
+        link: https://www.facebook.com/Shell.IT.agency
+      - icon: fontawesome/brands/instagram
+        link: https://www.instagram.com/shell.it.agency/
+      - icon: fontawesome/brands/x-twitter
+        link: https://twitter.com/shell_IT_agency
+
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.arithmatex:
+      generic: true
+  - md_in_html
+  - toc:
+      permalink: true
+  - toc:
+      title: On this page
+  - toc:
+      permalink: true
+  - toc:
+      permalink_title: Anchor link to this section for reference
+  - toc:
+      toc_depth: 3
+  - tables
+  - pymdownx.snippets
+  - attr_list
+  - footnotes
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tasklist:
+      clickable_checkbox: true
+    
+copyright: |
+  &copy; 2024 Shell-iT
