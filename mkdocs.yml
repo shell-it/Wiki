@@ -1,5 +1,7 @@
 site_name: Shell-iT
 theme:
+  logo: .docs/Logo.png
+  favicon: .docs/FAV-SHELLIT.png
   name: material
   language: en
   features:
